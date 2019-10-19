@@ -10,7 +10,7 @@
 
 <body>
 	<div class="container">
-		<h1> Cadastro de Bebida </h1>
+		<h2> Cadastro de Bebida: </h2>
 
 		<form:form action="/bebida/inserirAction" method="post" modelAttribute="bebida">
 			<fieldset>

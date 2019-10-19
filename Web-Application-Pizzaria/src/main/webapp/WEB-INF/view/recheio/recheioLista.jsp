@@ -19,8 +19,8 @@
 <body>
 <div class="container">
 
-  <h2><b>Opções de Recheio</b></h2>
-  	<a href="/">Voltar ao Menu</a>
+  <h2><b>Recheio</b></h2>
+  	<a href="/index">Voltar ao Menu</a>
   	<br>
 	<a href="/recheio/inserir">Inserir Recheio</a>
 

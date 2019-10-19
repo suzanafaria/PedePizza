@@ -10,13 +10,11 @@ com\springboot\pizzaria\model\Pedido.class
 com\springboot\pizzaria\dao\PizzaRepository.class
 com\springboot\pizzaria\dao\ProdutoRepository.class
 com\springboot\pizzaria\controller\ClienteController.class
-com\springboot\pizzaria\service\UsuarioService.class
 com\springboot\pizzaria\controller\ProdutoController.class
 com\springboot\pizzaria\dao\RecheioRepository.class
 com\springboot\pizzaria\model\Usuario.class
 com\springboot\pizzaria\controller\PedidoController.class
 com\springboot\pizzaria\dao\BebidaRepository.class
-com\springboot\pizzaria\service\UsuarioServiceImplement.class
 com\springboot\pizzaria\controller\PizzaController.class
 com\springboot\pizzaria\model\Pizza.class
 com\springboot\pizzaria\controller\RecheioController.class

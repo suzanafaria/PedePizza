@@ -19,9 +19,8 @@
 <body>
 <div class="container">
 
-  <h2><b>Lista de Pedidos</b></h2>
-  	<a href="/">Voltar ao Menu</a>
-  	<br>
+  <h2><b>Pedidos:</b></h2>
+  	<a href="/index">Voltar ao Menu</a>
   	<br>
 	<a href="/pedido/inserir">Realizar novo Pedido</a>
 

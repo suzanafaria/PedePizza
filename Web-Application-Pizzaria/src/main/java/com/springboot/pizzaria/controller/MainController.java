@@ -8,9 +8,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
 	@RequestMapping("/")
+	public String login(Model model) {
+		model.addAttribute("attribute", "value");
+		return "loginForm";
+	}
+	
+	@RequestMapping("/index")
 	public String index(Model model) {
 		model.addAttribute("attribute", "value");
-		return "login";
+		return "index";
 	
 	}
+
 }

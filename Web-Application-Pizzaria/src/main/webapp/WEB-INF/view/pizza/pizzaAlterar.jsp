@@ -8,7 +8,7 @@
 	<title>Alterar Pizza</title>
 </head>
 <body>
-	<h1>Alterar Cadastro de Pizza</h1>
+	<h2>Alterar Cadastro de Pizza:</h2>
 	<form:form action="pizza/alterarAction" method="post" modelAttribute="pizza">
 		<form:hidden path="id" />
 		<fieldset>

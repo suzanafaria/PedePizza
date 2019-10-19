@@ -17,10 +17,11 @@
 </head>
 
 <body>
-<div class="container">
 
-  <h2><b>Opções de Massa</b></h2>
-  	<a href="/">Voltar ao Menu</a>
+	<div class="container">
+
+  	<h2><b>Massas:</b></h2>
+  	<a href="/index">Voltar ao Menu</a>  	
   	<br>
 	<a href="/massa/inserir">Inserir Massa</a>
 

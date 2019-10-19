@@ -50,8 +50,7 @@ public class ClienteRestController {
         return this.repository.save(cliente);
     }
 	
-	
-	
+		
 	@DeleteMapping("/{id}")
     public ResponseEntity<?> delete(@PathVariable int id){
         Optional<Cliente> cliente = this.repository.findById(id);
@@ -62,8 +61,7 @@ public class ClienteRestController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-	
-	
+		
 	
 	@PutMapping("/{id}")
     public ResponseEntity<?> put(@PathVariable int id, 
@@ -79,8 +77,6 @@ public class ClienteRestController {
        }
 
     }
-
-	
 	
 	
 }

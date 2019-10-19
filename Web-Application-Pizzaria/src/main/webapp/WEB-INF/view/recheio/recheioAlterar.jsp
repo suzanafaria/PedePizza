@@ -8,7 +8,7 @@
 	<title>Alterar Recheio</title>
 </head>
 <body>
-	<h1>Alterar Cadastro de Recheio</h1>
+	<h2>Alterar Cadastro de Recheio:</h2>
 	<form:form action="/recheio/alterarAction" method="post" modelAttribute="recheio">
 		<form:hidden path="id" />
 		<fieldset>

@@ -8,7 +8,7 @@
 	<title>Alterar Massa</title>
 </head>
 <body>
-	<h1>Alterar Pedido</h1>
+	<h2>Alterar Pedido:</h2>
 	<form:form action="/pedido/alterarAction" method="post" modelAttribute="pedido">
 		<form:hidden path="id" />
 		<fieldset>

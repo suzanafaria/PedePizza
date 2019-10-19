@@ -10,7 +10,7 @@
 
 <body>
 	<div class="container">
-		<h1> Cadastro de Cliente </h1>
+		<h2> Cadastro de Cliente: </h2>
 
 		<form:form action="/cliente/inserirAction" method="post" modelAttribute="cliente">
 			<fieldset>

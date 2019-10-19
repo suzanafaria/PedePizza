@@ -6,11 +6,20 @@
 <meta charset="ISO-8859-1">
 <title>SpringBoot Pizzaria</title>
 </head>
+<style type="text/css">
+div.a {
+	text-align: center;
+}
+</style>
 <body>
-	<h1> Spring Boot - Web Application Pizzaria!</h1>
+	
+	<div class="a">
+	<h1> Web Application Pizzaria utilizando Spring Boot </h1>
+	</div>
 	
 	<br>
-	
+	<h3>Bem vindo, <i>${sessionScope.login}</i>!</h3>
+	<br>
 	<nav>
 		<a href="massa">Massa</a> 
 		&nbsp; 

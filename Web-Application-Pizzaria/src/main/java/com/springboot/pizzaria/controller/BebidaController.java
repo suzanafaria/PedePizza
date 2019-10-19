@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.springboot.pizzaria.dao.BebidaRepository;
 import com.springboot.pizzaria.model.Bebida;
-import com.springboot.pizzaria.model.Cliente;
 
 @Controller
 public class BebidaController {
@@ -33,7 +32,6 @@ public class BebidaController {
 		model.addAttribute("bebidas", bebidas);
 		return "bebida/bebidaLista";
 	}
-	
 	
 	// inserir Bebida
 	@RequestMapping("/bebida/inserir")

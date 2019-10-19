@@ -11,7 +11,7 @@
 
 <body>
 	<div class="container">
-		<h1> Cadastro de Recheio </h1>
+		<h2> Cadastro de Recheio:</h2>
 
 		<form:form action="/recheio/inserirAction" method="post"
 			modelAttribute="recheio">

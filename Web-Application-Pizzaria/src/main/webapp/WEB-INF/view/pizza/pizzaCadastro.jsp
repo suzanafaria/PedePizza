@@ -10,7 +10,7 @@
 
 <body>
 	<div class="container">
-		<h1> Cadastro de Pizza </h1>
+		<h2> Cadastro de Pizza: </h2>
 
 		<form:form action="/pizza/inserirAction" method="post" modelAttribute="pizza">
 			<fieldset>

@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1> Cadastro de Massa </h1>
+		<h2> Cadastro de Massa: </h2>
 
 		<form:form action="/massa/inserirAction" method="post"
 			modelAttribute="massa">

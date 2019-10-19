@@ -19,9 +19,8 @@
 <body>
 <div class="container">
 
-  <h2><b>Lista de Pizzas</b></h2>
-  	
-  	<a href="/">Voltar ao Menu</a>
+  <h2><b>Pizzas:</b></h2>
+  	<a href="/index">Voltar ao Menu</a>
   	<br>
 	<a href="/pizza/inserir">Inserir Pizza</a>
 

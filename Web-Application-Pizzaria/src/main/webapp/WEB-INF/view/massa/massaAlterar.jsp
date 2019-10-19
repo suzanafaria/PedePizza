@@ -8,7 +8,7 @@
 	<title>Alterar Massa</title>
 </head>
 <body>
-	<h1>Alterar Cadastro de Massa</h1>
+	<h2>Alterar Cadastro de Massa:</h2>
 	<form:form action="/massa/alterarAction" method="post" modelAttribute="massa">
 		<form:hidden path="id" />
 		<fieldset>

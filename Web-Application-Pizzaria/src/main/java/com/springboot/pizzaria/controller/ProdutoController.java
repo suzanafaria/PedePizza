@@ -27,8 +27,7 @@ public class ProdutoController {
         model.addAttribute("produtos", produtos);
         return "/produto/produtoLista";
     }
-	
-	
+		
 	
 	//excluir Produto
 		@RequestMapping("produto/remover/{id}")		
@@ -38,8 +37,6 @@ public class ProdutoController {
 	        model.addAttribute("produtos", this.repository.findAll());
 	        return "produto/produtoLista";
 	    }
-	
-	
 	
 	
 }

@@ -24,7 +24,6 @@ public class ClienteController {
 		this.repository = repository;
 	}
 	
-	
 	@RequestMapping("/cliente")
 	public String index(Model model) {
 		
@@ -33,7 +32,6 @@ public class ClienteController {
 		model.addAttribute("clientes", clientes);
 		return "cliente/clienteLista";
 	}
-	
 	
 	// inserir Cliente
 	@RequestMapping("/cliente/inserir")

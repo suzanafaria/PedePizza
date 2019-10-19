@@ -19,9 +19,9 @@
 <body>
 <div class="container">
 
-  	<h2><b>Lista de Produtos</b></h2>
+  	<h2><b>Produtos:</b></h2>
   	
-  	<a href="/">Voltar ao Menu</a>
+  	<a href="/index">Voltar ao Menu</a>
   	<br>
   	
 	<hr>

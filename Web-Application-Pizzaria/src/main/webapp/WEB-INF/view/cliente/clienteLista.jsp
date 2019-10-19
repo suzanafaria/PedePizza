@@ -19,8 +19,8 @@
 <body>
 <div class="container">
 
-  <h2><b>Lista de Clientes</b></h2>
-	<a href="/">Voltar ao Menu</a>
+  <h2><b>Clientes:</b></h2>
+	<a href="/index">Voltar ao Menu</a>
 	<br>
 	<a href="/cliente/inserir">Novo Cliente</a>
 

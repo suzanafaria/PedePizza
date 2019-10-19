@@ -8,7 +8,7 @@
 	<title>Alterar Cliente</title>
 </head>
 <body>
-	<h1>Alterar Cadastro de Cliente</h1>
+	<h2>Alterar Cadastro de Cliente:</h2>
 	<form:form action="/cliente/alterarAction" method="post" modelAttribute="cliente">
 		<form:hidden path="id" />
 		<fieldset>

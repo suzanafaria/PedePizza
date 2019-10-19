@@ -19,8 +19,8 @@
 <body>
 <div class="container">
 
-  <h2><b>Lista de Bebidas</b></h2>
-  	<a href="/">Voltar ao Menu</a>
+  <h2><b>Bebidas:</b></h2>
+  	<a href="/index">Voltar ao Menu</a>
   	<br>
 	<a href="/bebida/inserir">Inserir Bebida</a>
 

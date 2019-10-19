@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1> Cadastro de Pedido </h1>
+		<h2> Cadastro de Pedido: </h2>
 
 		<form:form action="/pedido/inserirAction" method="post" modelAttribute="pedido">
 			<fieldset>
@@ -24,19 +24,9 @@
 				<label>Forma de Pagamento:</label>
 				<form:input path="formaPagamento" />
 				<br> 
-				<!-- 
 				<label>Cliente:</label>
 				<form:input path="cliente" />
 				<br> 
-				 -->
-				
-				<form:select path="cliente.nome" id="cliente">
-					<form:option value="NONE" label="--- Select ---" />
-					<form:options items="${cliente}" />
-				</form:select>
-				
-				<br>
-
 				<label>Produtos:</label>
 				<form:input path="produtos" />
 				
