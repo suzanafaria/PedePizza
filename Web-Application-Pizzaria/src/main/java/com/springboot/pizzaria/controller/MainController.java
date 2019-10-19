@@ -10,7 +10,7 @@ public class MainController {
 	@RequestMapping("/")
 	public String index(Model model) {
 		model.addAttribute("attribute", "value");
-		return "index";
+		return "login";
 	
 	}
 }
