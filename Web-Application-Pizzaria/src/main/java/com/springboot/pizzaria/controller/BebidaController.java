@@ -33,7 +33,7 @@ public class BebidaController {
 		return "bebida/bebidaLista";
 	}
 	
-	// inserir Bebida
+	//inserir Bebida
 	@RequestMapping("/bebida/inserir")
 	public String inserir(Model model) {
 		Bebida bebida = new Bebida();
@@ -59,7 +59,7 @@ public class BebidaController {
 	}
 	
 		
-	// alterar Bebida
+	//alterar Bebida
 	@RequestMapping("/bebida/alterar/{id}")
 	public String alterar(Model model, 
 			@PathVariable(value = "id") int id) {
@@ -86,7 +86,7 @@ public class BebidaController {
 	}
 	
 	
-	// excluir Bebida
+	//excluir Bebida
 	@RequestMapping("bebida/remover/{id}")		
     public String remover(Model model, @PathVariable(value="id") int id){
         this.repository.deleteById(id);
